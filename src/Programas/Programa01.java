@@ -30,9 +30,16 @@ public class Programa01 {
         sn=sb-d;
         
         // Salida de datos
-        System.out.println("El Sueldo bruto es: " + sb);
-        System.out.println("El Descuento es: " + d);
-        System.out.println("El Sueldo Neto es: " + sn);
+        System.out.println("\n===== RESUMEN DE PAGO =====");
+        System.out.println("Empleado: " + empleado);
+        System.out.printf("Horas trabajadas: %.2f%n", ht);
+        System.out.printf("Tarifa por hora: S/ %.2f%n", th);
+        System.out.printf("Sueldo bruto: S/ %.2f%n", sb);
+        System.out.printf("Descuento: S/ %.2f%n", d);
+        System.out.printf("Sueldo Neto a recibir: S/ %.2f%n", sn);
+        System.out.println("===========================");
+        
+        lectura.close();
     }
     
 }
